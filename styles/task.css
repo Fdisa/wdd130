@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+
+#content { 
+    max-width: 50%;
+}
+
+h1 { 
+    color: white;
+    margin-left: 650px;
+}
+h2 { 
+    color: white;
+    margin-left: 300px;
+}
+h3 { color: ;
+}
+
+#quote {     
+    color: white;
+}
