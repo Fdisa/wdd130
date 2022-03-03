@@ -185,6 +185,38 @@ nav {
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 }
+.card-faq {
+  width: 30%;
+  border: 10px solid brown;
+}
+
+.card-fa {
+  width: 30%;
+  border: 10px solid brown;
+}
+.card-kayak {
+  width: 30%;
+  border: 10px solid brown;
+}
+.card-chuck {
+  width: 30%;
+  border: 10px solid brown;
+}
+.card-land {
+  width: 30%;
+  border: 10px solid brown;
+}
+.FAQ-Grid {
+  font-size: 20px;
+text-align: center;}
+  h5 {
+    font-size: 30px;
+    text-align: center;
+ }
+  h6 {
+font-size: 30px;
+text-align: center;
+  }
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
@@ -223,8 +255,5 @@ grid-template-columns: repeat(10, 1fr);
       margin: 0 auto;
   }
   footer {
-      margin-top: 25px;
-  }
-}
-       
-      
+      margin-top: 25px;}
+    }  
