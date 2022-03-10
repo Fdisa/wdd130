@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+.Home-grid {
+    background-color: #68c5f7;
+    text-align: center;
+    }
+
+  h3 {
+font-family: "Bebas Neue", "Rock Salt";
+  }
+  h1 {
+    font-family: "Rock Salt", "Georgia";
+  }
+  p {
+    font-family: "Open Sans", "Roboto";
+  }
+  #bullets {
+    text-align: left;
+  }
+#content {
+    margin: 0 auto;
+    background-color: rgb(22, 136, 236);
+    }
+    .img-mex {
+      width: 534px;
+    }
+    .img-fly {
+      width: 300px;
+    }
+    .img-sign {
+      width: 267px;
+    }
+    .img-dance {
+      width: 450px;
+    }
+    .img-xoximilco {
+      width: 300px;
+    }
+    nav a {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 35px;
+      }
+      #background {
+        height: 725px;
+        background-color: white;
+        grid-column: 1/11;
+          grid-row: 4/9;
+      }
+      header {
+        background-color: #0077B6;
+        display: grid;
+          grid-template-columns: 150px auto;
+      }
+      nav a:hover {
+        background-color: #235789;}
+ footer {
+ background-color: #9bc7ee;
+padding: 25px 50px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .logo {
+    padding-top: 5px;
+    width: 150px;
+        justify-self: center;
+      align-self: center;
+      padding-left: 35px;
+  }
+  footer .social img {
+    padding-top: 15px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+      }
+      body {
+        font-size: 22px;
+        font-family: 'Open Sans', 'Roboto'  
+      }
