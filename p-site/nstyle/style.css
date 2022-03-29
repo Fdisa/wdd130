@@ -5,6 +5,7 @@
     }
   h3 {
 font-family: "Bebas Neue", "Rock Salt";
+padding: 30px;
   }
   h1 {
     font-family: "Rock Salt", "Georgia";
@@ -12,6 +13,7 @@ font-family: "Bebas Neue", "Rock Salt";
   }
   p {
     font-family: "Open Sans", "Roboto";
+    padding: 20px 15px;
   }
   #bullets {
     text-align: left;
@@ -26,6 +28,7 @@ font-family: "Bebas Neue", "Rock Salt";
       margin-left: 100px;
       grid-column: 1;
       border: 4px solid royalblue;
+      margin-top: 30px;
     }
     .img-fly {
       width: 300px;
@@ -38,10 +41,14 @@ font-family: "Bebas Neue", "Rock Salt";
       width: 300px;
       margin-left: 120px;
       border: 4px solid royalblue;
+      margin-bottom: 50px;
     }
     .img-dance {
       width: 450px;
       border: 4px solid royalblue;
+      grid-column: 2;
+      margin-left: 80px;
+      margin-top: 40px;
     }
     .img-xoximilco {
       width: 270px;
@@ -182,19 +189,57 @@ footer a {
     width: 450px;
     border: 4px solid royalblue;
     }
-    .img-tacos {
-
+    .grid7 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-.img-skulls {
-
-}
-
-.img-catrinas {
-
-}
-.img-veracruz {
-width: 40px;
-}
-.img-food {
-width: ;
-}
+    .grid7 p {
+      grid-column: 1/6;
+      padding: 20px 15px;
+        } 
+    .grid8 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .grid8 p {
+      grid-column: 1/6;
+      padding: 20px 15px;
+        }
+    .grid9 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .grid9 p {
+      grid-column: 1/6;
+      padding: 20px 15px;
+        }
+    .img-skulls {
+      border: 4px solid royalblue;
+      grid-column: 3;
+    margin-right: 20px;
+    }
+    .img-catrinas {
+      border: 4px solid royalblue;
+      grid-column: 4;
+      margin-top: 20px;
+    }
+    .img-veracruz {
+      width: 270px;
+      border: 4px solid royalblue;
+      grid-column: 3;
+      margin-left: 60px;
+    }
+    .img-food {
+      border: 4px solid royalblue;
+      grid-column: 2;
+    margin-right: 20px;
+    grid-row: 2;
+    margin-right: 20px;
+    margin-top: 30px;
+    }
+    .img-tacos {
+      border: 4px solid royalblue;
+      width: 320px;
+      grid-column: 3;
+      margin-bottom: 180px;
+    }
